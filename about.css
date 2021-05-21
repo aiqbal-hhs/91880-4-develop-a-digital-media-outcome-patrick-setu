@@ -1,0 +1,84 @@
+/* Sets a background color, font family, and the alignment of the text */
+html {
+    background-color: #D8C3A5;
+    width: 100%;
+    font: normal 18px 'Source Sans Pro', sans-serif; 
+    text-align: center;
+}
+
+/* Sets the height of the header and puts space on the top and bottom */
+header {
+    height: 80px;
+    padding: 80px;
+    border: 1px solid #A4AAB6;
+    background-image: url(https://cdn.pixabay.com/photo/2018/07/14/22/39/afterglow-3538594_960_720.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Styles the background of the navigation bar*/
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    background-color: #6476A6;
+}
+ /* Styles and arranges the actual text of the navigation bar*/
+li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    float: left;
+    padding: 14px 30px;
+    border-right: 1px solid #A4AAB6;
+    font-size: 18px;
+}
+
+/* Whenever the mouse hovers over one of the anchors in the list, it becomes black */
+li a:hover {
+    background-color: #2D4B87;
+}
+
+/*When this page is active, it will be colored a light grey on the navigation bar*/
+li a.active {
+  background-color: #2D4B87;
+  color: white;
+}
+
+/*This is so that the title of each place in the section will be centred*/
+h1 {
+    text-align: center;
+}
+
+/*This will style and arrange the text in the section tags of my HTML*/
+section {
+    text-align: center;
+    border: 2px solid darkgrey;
+    background-color: #f2f2f2;
+    width: 90%;
+    height: 100%;
+    padding: 50px 15px 250px 15px;
+    margin-left: 70px;
+    margin-bottom: 10px;
+}
+
+/*Arranges and styles the image */
+.image {
+    float: right;
+    height: 310px;
+    border: 2px solid darkgrey;
+    margin: 0 10px 10px -0px;
+
+}
+
+/*Styles the footer at the bottom of the page */
+footer {
+    background-color: #6476A6;
+    position: block ;
+    bottom: auto;
+    padding: 15px;
+    color: white;
+    margin-top: 158px;
+}
+
