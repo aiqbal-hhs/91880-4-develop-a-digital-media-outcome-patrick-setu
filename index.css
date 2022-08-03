@@ -39,6 +39,7 @@ li a {
     padding-bottom: 43%;
     border-bottom: 1px solid #A4AAB6;
     text-align: center;
+    text-decoration: none;
 }
 
 /* Whenever the mouse hovers over one of the anchors in the list, it becomes black */
